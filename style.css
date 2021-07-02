@@ -1,0 +1,46 @@
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #33383c;
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+}
+.navbar a {
+  float: right;
+  display: block;
+  color: #f8f8f8;
+  text-align: center;
+  padding: 14px 16px;
+ 
+}
+.navbar b{
+  float: left;
+  display: block;
+  color: #f8f8f8;
+  text-align: center;
+  padding: 14px 100px;
+}
+.navbar a:hover {
+  background: #78786e;
+  color: black;
+}
+
+
+
+.parallax {
+  background-image: url("picture/BG.png");
+  min-height: 600px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: bbc8d8;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+}

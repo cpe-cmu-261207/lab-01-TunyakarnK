@@ -2,7 +2,7 @@
 .navbar {
   overflow: hidden;
   background-color: #33383c;
-  position: fixed; 
+  position: fixed;
   top: 0; 
   width: 100%; 
 }
@@ -11,7 +11,7 @@
   display: block;
   color: #f8f8f8;
   text-align: center;
-  padding: 14px 16px;
+  padding: 1% 2%;
  
 }
 .navbar b{
@@ -19,28 +19,34 @@
   display: block;
   color: #f8f8f8;
   text-align: center;
-  padding: 14px 100px;
+  padding: 1% 3%;
 }
 .navbar a:hover {
   background: #78786e;
   color: black;
 }
 
-
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
 
 .parallax {
-  background-image: url("picture/BG.png");
-  min-height: 600px;
-
+background-image:  url("picture/BG1.png"); 
+  min-height: 500px; 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: bbc8d8;
 }
 
-.main {
-  padding: 16px;
-  margin-top: 30px;
+.heading{
+  text-align: center;
+  font-family: 'Poppins', sans-serif; 
+  font-size: 35px;
 }
+

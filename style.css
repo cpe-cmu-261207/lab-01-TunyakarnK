@@ -50,28 +50,42 @@ background-image:  url("picture/BG1.png");
   font-size: 35px;
 }
 
-/* Ensure proper sizing */
 * {
   box-sizing: border-box;
 }
 
-/* Column container */
 .row {
   display: flex;
   flex-wrap: wrap;
 }
 
-/* Create two unequal columns that sits next to each other */
-/* Sidebar/left column */
 .side {
-  flex: 30%; /* Set the width of the sidebar */
-  background-color: #f1f1f1; /* Grey background color */
-  padding: 20px; /* Some padding */
+  flex: 30%; 
+  background-color: #f8f8f8;
+  padding: 20px; 
 }
 
-/* Main column */
 .main {
-  flex: 70%; /* Set the width of the main content */
-  background-color: white; /* White background color */
-  padding: 20px; /* Some padding */
+  flex: 70%;
+  background-color: #f1dcd1; 
+  padding: 20px; 
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 black;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+.card p{
+  color:#33383c;
+}
+
+.card-container {
+  padding: 2px 16px;
+}
+
+.main img:hover, a:hover {
+  opacity: 0.7;
 }

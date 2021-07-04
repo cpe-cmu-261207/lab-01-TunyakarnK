@@ -1,36 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TunyakarnK Home</title>
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TunyakarnK Home</title>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
-  </head>
+</head>
 
-<body>
+<body style="background: #edf4fc;">
   <!--NavBar-->
   <div class="navbar">
     <b>&nbsp;</b><b>&nbsp;</b>
     <b style="font-family: 'Poppins', sans-serif; font-size: 20px;">TunyakarnK</b>
     <b style="float: right;">&nbsp;</b>
-    <a href="contact.html">Contact</a>
-    <a href="exp.html">Experience</a>
-    <a href="index.html">Home</a>
+    <a href="./contact.html">Contact</a>
+    <a href="./exp.html">Experience</a>
+    <a href="./index.html">Home</a>
   </div>
 
+  <!--parallax-->
+  <div class="parallax-exp">
+    <img src="./picture/expBG2.png">
+  </div>
 
+ <!--com proj-->
+ <div style="color: #2e3438;background-color:white;padding:30px 80px;">
+  <p class="heading">My COMPUTER PROJECT!</p>
+    <div class="flex justify-center">
+    <svg class="animate-bounce w-6 h-6 text-amber-900 " fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+      <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+    </svg>
+</div>
+</div>
+
+  <!--NR museum-->
+  <div class="row" style="color: #2e3438;background-color:#edf4fc;text-align:center;text-align: justify;padding-top: 5%">
+    <div class="side" style="background-color: white;"><video autoplay muted loop src="./picture/NR museum.mp4" style="padding-top: 8%;"></video></div>
+
+    <div class="main" style="padding-right: 3%;">
+      <p class="heading" style="padding-bottom: 5px;">NR-museum</p>
+      <p style="font-size: 25px;">This 3D museum simulator game is my high school computer project. My parts in this
+        project are coded C# language in Unity and created object models using blender. This project got silver medal in
+        The 11th Academic Conference on "The Enrichment Program of SMTE" for Upper-Northern Thailand.<br>&nbsp; </p>
+      <div class="flex justify-center">
+      </div>
+    </div>
+  </div>
+
+  <!--crazy Snake-->
+  <div class="row" style="color: #2e3438;background-color:#edf4fc; padding-top: 5%;">
+    <div class="side" style="flex: 70%;padding-left: 3%; background-color: white;">
+      <p class="heading">Crazy Snake</p>
+      <p style="font-size: 25px;">Crazy Snake is not only just a boring snake and ladder game! Battle you friend, using
+        given item from special minigame to be the winner! This game created by using Scratch. It is my computer project
+        in 261103 Basic Computer Engineering subject.</p>
+      <a href="https://scratch.mit.edu/projects/550558077">Visit Crazy Snake</a>
+      <div>&nbsp;</div>
+    </div>
+    <div class="main" style="flex: 30%;"><img src="./picture/crazy snake.png">
+    </div>
+  </div>
+
+  <!--batty bat-->
+  <div class="row" style="color: #2e3438;background-color:#edf4fc;text-align:center;text-align: justify;padding-top: 5%; padding-bottom: 5%;">
+    <div class="side" style="background-color: white;"><img src="./picture/battybat.png"></div>
+
+    <div class="main" style="padding-right: 3%;">
+      <p class="heading" style="padding-bottom: 5px;">BattyBat</p>
+      <p style="font-size: 25px;">How long this bat will last? help this poor bat dodge over dangerous obstacles! BattyBat is a 2D pixel-graphic game created with c++ and SFML. It is my computer project in 261102 Computer Programming subject.  </p>
+      <a href="https://github.com/TunyakarnK/BattyBat">Visit BattyBat Github</a>
+      <div style="padding-bottom: 5%;">&nbsp;</div>
+      </div>
+    </div>
+  </div>
+
+   <!--art-->
+ <div style="color: #2e3438;background-color:white;text-align:center;padding:30px 80px;text-align: justify;">
+  <p class="heading">My Art Gallery!</p>
+    <div class="flex justify-center">
+    <svg class="animate-bounce w-6 h-6 text-amber-900 " fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+      <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+    </svg>
+</div>
+</div>
+
+<div style="padding-bottom: 5%;"> &nbsp;</div>
+  <!-- The grid: four columns -->
+  <div class="img-row">
+    <div class="img-column">
+      <img src="./picture/exp5.png">
+      <img src="./picture/exp3.png">
+      <img src="./picture/exp8.png">
+      <img src="./picture/exp1.png">
+      <img src="./picture/exp6.png">
+      <img src="./picture/exp14.png">
+      <img style="width: 100%;" src="./picture/exp10.png">  
+    </div>
+    <div class="img-column">
+      <img src="./picture/exp2.png">
+      <img src="./picture/exp4.png">
+      <img src="./picture/exp7.png">
+      <img src="./picture/exp9.jpg">
+      <img style="width: 100%;" src="./picture/exp12.png">
+      <img src="./picture/exp13.png">
+      <img style="width: 100%;" src="./picture/exp11.png">           
+    </div>
+  </div>
+
+<div style="padding-bottom: 3%;"> &nbsp;</div>
 
   <p class="space-y-4 text-center text-gray-700">
-    copyright © 2021 MyPicstory
+     © 2021 TunyakarnK by Tunyakarn Kitchon. Lastest update 4 July 2021
   </p>
 </body>
 

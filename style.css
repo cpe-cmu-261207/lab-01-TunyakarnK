@@ -35,7 +35,7 @@ p {
 }
 
 .parallax {
-background-image:  url("picture/BG1.png"); 
+background-image:  url("./picture/BG1.png"); 
   min-height: 500px; 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -43,6 +43,14 @@ background-image:  url("picture/BG1.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
+.parallax-exp {
+  background-image:  url("./picture/expBG1.jpg"); 
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
 .heading{
   text-align: center;
@@ -88,4 +96,21 @@ background-image:  url("picture/BG1.png");
 
 .main img:hover, a:hover {
   opacity: 0.7;
+}
+
+/* for gallery*/
+.img-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.img-column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.img-column img {
+  margin-top: 8px;
+  vertical-align: middle;
 }
